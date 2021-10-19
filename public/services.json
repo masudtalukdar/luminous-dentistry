@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": " General Dentistry",
+    "description": " A comprehensive wellness visit with a comfortable cleaning, x-rays, and a personalized exam.",
+    "duration": "90 minutes or less",
+    "img": "https://i.ibb.co/cJVC8q5/img1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Invisalign®",
+    "description": "Clear aligners are the clear choice for a straight, radiant smile! Our Invisalign® dentists can fit you with Invisalign® for noticeably straighter teeth.",
+    "duration": "60 minutes or less",
+    "img": "https://i.ibb.co/HV2WQ7c/img2.png"
+  },
+  {
+    "id": 3,
+    "title": "Cosmetic Dentistry",
+    "description": " Veneers, Cosmetic Contouring and Professional Teeth Whitening that will help you look your absolute best.",
+    "duration": "90 minutes or less",
+    "img": "https://i.ibb.co/rdXptmt/img3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Family Dentistry",
+    "description": "Whether for a very first cleaning or for dentures or implants, we’ll be with your family at every stage.",
+    "duration": "20 minutes",
+    "img": "https://i.ibb.co/qx2gw84/img4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Sleep Apnea Treatment",
+    "description": "SWISH Smile Artists don’t just straighten and brighten your smile, we also help you rest assured with sleep apnea treatment options.",
+    "duration": "30 minutes",
+    "img": "https://i.ibb.co/hCGT4Vd/img5.jpg"
+  }
+]

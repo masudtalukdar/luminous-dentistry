@@ -24,12 +24,12 @@ const NavMenu = () => {
             class='collapse navbar-collapse nav-items'
             id='navbarNavAltMarkup'
           >
-            <div class='navbar-nav'>
-              <a href=''>HOME</a>
-              <a href=''>ABOUT US</a>
-              <a href=''>SERVICES</a>
-              <a href=''>EMERGENCY DENTIST</a>
-              <a href=''>OUR WORK</a>
+            <div className='navbar-nav'>
+              <Link to='/home'>HOME</Link>
+              <Link to='/about-us'>ABOUT US</Link>
+              <Link to='/services'>SERVICES</Link>
+              <Link to='/emergency-doctor'>EMERGENCY DENTIST</Link>
+              <Link to='/our-work'>OUR WORK</Link>
               <a href=''>Login</a>
             </div>
           </div>

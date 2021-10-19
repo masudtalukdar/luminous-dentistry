@@ -1,0 +1,20 @@
+.about-container {
+  color: rgb(147 149 152);
+}
+#container {
+  display: flex;
+  flex-direction: row;
+}
+.service-icon {
+  width: 40%;
+  height: 80%;
+
+  margin-bottom: 5px;
+  margin-left: 80px;
+}
+
+.serviceBox {
+  text-align: center;
+  float: left;
+  padding: 30px;
+}

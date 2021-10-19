@@ -16,6 +16,10 @@
 .navbar-nav a {
   text-decoration: none;
   margin-left: 20px;
+  color: orangered;
+}
+.navbar-nav a:hover {
+  color: whitesmoke;
 }
 .nav-items {
   margin-left: 310px;
