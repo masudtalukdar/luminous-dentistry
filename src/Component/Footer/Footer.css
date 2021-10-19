@@ -1,0 +1,16 @@
+footer {
+  background-color: black;
+  margin-top: 200px !important;
+  padding: 60px;
+}
+footer p {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+footer p:hover {
+  color: rgba(249, 122, 105, 1);
+}
+.row {
+  margin-right: 0px;
+}

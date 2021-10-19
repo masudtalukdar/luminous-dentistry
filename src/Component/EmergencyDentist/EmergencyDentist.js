@@ -8,7 +8,8 @@ const EmergencyDentist = () => {
         <h1 className='header-title'>EMERGENCY DENTIST</h1>
         <div>
           <img
-            className='emergency-img col-lg-9 col-sm-6'
+            id='miniImg'
+            className='emergency-img col-lg-9'
             src='https://i.ibb.co/xLBdK2t/luminous-emergencies.jpg'
             alt=''
           />

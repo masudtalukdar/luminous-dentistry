@@ -17,7 +17,7 @@ const Banner = () => {
               <FaPhoneAlt /> 15589528030
             </span>
           </div>
-          <video autoPlay loop muted>
+          <video className='mini-display' autoPlay loop muted>
             <source src={headerVideo} type='video/mp4' />
           </video>
         </div>
