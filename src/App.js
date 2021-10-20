@@ -11,6 +11,7 @@ import Footer from './Component/Footer/Footer';
 import Login from './Component/Login/Login';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import AuthProvider from './Component/Context/AuthProvider';
+import ServiceDetails from './Component/Services/ServiceDetails';
 
 function App() {
   return (
@@ -18,17 +19,20 @@ function App() {
       <AuthProvider>
         <Router>
           <NavMenu></NavMenu>
-          {/* <Home></Home> */}
-          {/* <About></About> */}
+
           <Switch>
             <Route exact path='/'>
               <Home></Home>
+              {/* <ServiceDetails></ServiceDetails> */}
             </Route>
             <Route path='/about-us'>
               <About></About>
             </Route>
             <PrivateRoute path='/our-work'>
               <Work></Work>
+            </PrivateRoute>
+            <PrivateRoute path='/services/:id'>
+              <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <PrivateRoute path='/services'>
               <Services></Services>

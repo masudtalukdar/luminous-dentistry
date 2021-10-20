@@ -1,0 +1,36 @@
+.details-container {
+  padding: 10px;
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.detail-heading {
+  color: orangered;
+  font-size: 50px;
+  font-weight: 700;
+}
+.detail-info:hover {
+  padding: 10px;
+  box-shadow: 0 0.05rem 1rem rgb(190, 189, 189);
+  border-radius: 20px;
+  transition: 1s;
+}
+.detail-img img {
+  border-radius: 10px;
+}
+.detail-img:hover {
+  box-shadow: 0 0.05rem 1rem rgb(190, 189, 189);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+@media (max-width: 740px) {
+  .details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .detail-img img {
+    margin-right: 500px;
+  }
+}

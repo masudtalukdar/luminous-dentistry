@@ -18,13 +18,13 @@ const About = () => {
             with the best smile possible.
           </h5>
           <div className='service-container ' id='container'>
-            <div class=' col-md-4 col-sm-6'>
-              <div class='serviceBox'>
-                <div class='service-icon'>
+            <div className=' col-md-4 col-sm-6'>
+              <div className='serviceBox'>
+                <div className='service-icon'>
                   <img className='service-icon' src={tooth} alt='' />
                 </div>
-                <h3 class='title'>Functional Dentistry</h3>
-                <p class='description'>
+                <h3 className='title'>Functional Dentistry</h3>
+                <p className='description'>
                   Your teeth influence every part of your body including your
                   gut, your heart, and brain. We use preventative and root-cause
                   philosophy to use your mouth as a marker for the health of
@@ -34,13 +34,13 @@ const About = () => {
               </div>
               <p></p>
             </div>
-            <div class='  col-md-4 col-sm-6'>
-              <div class='serviceBox'>
-                <div class='service-icon'>
+            <div className='  col-md-4 col-sm-6'>
+              <div className='serviceBox'>
+                <div className='service-icon'>
                   <img className='service-icon' src={family} alt='' />
                 </div>
-                <h3 class='title'>COSMETIC AND FAMILY FOCUS</h3>
-                <p class='description'>
+                <h3 className='title'>COSMETIC AND FAMILY FOCUS</h3>
+                <p className='description'>
                   Our team is here to help your whole family smile. We use NO
                   mercury and NO fluoride for cosmetic dental options that will
                   make your smile pop, as well as kids dentistry options for
@@ -50,13 +50,13 @@ const About = () => {
               </div>
               <p></p>
             </div>
-            <div class='  col-md-4 col-sm-6'>
-              <div class='serviceBox'>
-                <div class='service-icon'>
+            <div className='  col-md-4 col-sm-6'>
+              <div className='serviceBox'>
+                <div className='service-icon'>
                   <img className='service-icon' src={braces} alt='' />
                 </div>
-                <h3 class='title'> PREVENTING BRACES</h3>
-                <p class='description'>
+                <h3 className='title'> PREVENTING BRACES</h3>
+                <p className='description'>
                   We believe the growth and development of your child is the
                   number one priority for any parent. Through Myofunctional
                   Orthodontics, we aim to guide your child’s face and jaws to

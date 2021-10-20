@@ -16,7 +16,7 @@ const NavMenu = () => {
           <div className='container-fluid wrap'>
             <img className='logo' src={logo} alt='logo' />
             <button
-              class='navbar-toggler'
+              className='navbar-toggler'
               type='button'
               data-bs-toggle='collapse'
               data-bs-target='#navbarNavAltMarkup'
@@ -24,7 +24,7 @@ const NavMenu = () => {
               aria-expanded='false'
               aria-label='Toggle navigation'
             >
-              <span class='navbar-toggler-icon'></span>
+              <span className='navbar-toggler-icon'></span>
             </button>
             <div
               class='collapse navbar-collapse nav-items'

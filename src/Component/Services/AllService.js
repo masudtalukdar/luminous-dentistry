@@ -1,9 +1,11 @@
 import React from 'react';
 import './AllServices.css';
 import ICON from '../../Images/ICON/time-logo.png';
+import { Link } from 'react-router-dom';
+import ServiceDetails from './ServiceDetails';
 
 const AllService = ({ service }) => {
-  const { id, title, description, duration, img } = service;
+  const { title, description, duration, img } = service;
   return (
     <div className='container'>
       <div className='service-card'>
@@ -14,6 +16,11 @@ const AllService = ({ service }) => {
           </div>
           <img className='time-icon' src={ICON} alt='' />
           <small>{duration}</small>
+          <Link to={`/services/${service.id}`}>
+            <button type='button' className='btn btn-danger text-white'>
+              Learn More
+            </button>
+          </Link>
         </div>
         <div className='col-lg-3'>
           <img className='card-img' src={img} alt='' />
