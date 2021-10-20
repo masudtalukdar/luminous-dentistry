@@ -13,7 +13,7 @@
 .service-card:hover {
   box-shadow: 0 0.05rem 1rem rgb(190, 189, 189);
   border-radius: 20px;
-  transition: 0.2s;
+  transition: 1s;
 }
 .card-info {
   justify-content: center;
