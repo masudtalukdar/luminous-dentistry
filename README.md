@@ -10,7 +10,7 @@ This is a Dental website.
 
  Technology: React,React-Bootstrap.
 
- Deploy :netlify
+ Firebase Hosting
 
 ## Tecnnolgy Used This Project
 
@@ -24,7 +24,7 @@ Font-end
 
 # Hosting
 
-Site hosted by netlify
+Site hosted by firebase
 
 ## short View ABout project
 
