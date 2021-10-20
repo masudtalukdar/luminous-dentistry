@@ -9,13 +9,9 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.emergency-img img {
-  display: flex;
-  border-radius: 21px;
-  width: 100%;
-  height: 31.25rem;
-  background-position: center;
-  margin: 0 0 3.75rem;
+#miniImg {
+  border-radius: 13px;
+  /* width: 10%; */
 }
 .header-title {
   color: whitesmoke;
@@ -35,12 +31,12 @@
   .emergency-blog {
     background-color: rgba(221, 216, 216, 0.623);
     width: 400px;
-    /* display: inline-block; */
     border-radius: 50px;
     margin-top: 10px;
   }
   #miniImg {
     width: 370px;
+    border-radius: 13px;
   }
   .info {
     margin: 10px;
