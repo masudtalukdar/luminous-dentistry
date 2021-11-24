@@ -12,7 +12,7 @@ This is a Dental website.
 
  Firebase Hosting
 
-## Tecnnolgy Used This Project
+## Technology Used This Project
 
 Font-end
 
